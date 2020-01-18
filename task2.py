@@ -1,0 +1,5 @@
+sort_words = input("Введите слова через пробелы: ")
+sort_words = sort_words.split() 
+sort_words.sort(key=len)
+sort_words = " ".join(sort_words) 
+print(sort_words)
